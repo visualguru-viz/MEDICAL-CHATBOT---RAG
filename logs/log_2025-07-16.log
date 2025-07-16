@@ -1,0 +1,268 @@
+2025-07-16 21:45:38,721 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 21:45:38,721 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 21:46:38,817 - INFO - 127.0.0.1 - - [16/Jul/2025 21:46:38] "GET / HTTP/1.1" 200 -
+2025-07-16 21:46:54,345 - INFO - Loading vector store for context
+2025-07-16 21:46:54,349 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 21:47:33,816 - INFO - Use pytorch device_name: cpu
+2025-07-16 21:47:33,817 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:47:41,243 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:47:41,243 - INFO - Loading existing FAISS vector store
+2025-07-16 21:47:41,490 - INFO - Loading faiss with AVX2 support.
+2025-07-16 21:47:41,851 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 21:47:41,942 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-16 21:47:42,476 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-16 21:47:42,477 - INFO - RetrievalQA chain created successfully
+2025-07-16 21:47:42,813 - INFO - 127.0.0.1 - - [16/Jul/2025 21:47:42] "POST / HTTP/1.1" 200 -
+2025-07-16 21:54:01,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 21:54:01,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 21:54:11,259 - INFO - 127.0.0.1 - - [16/Jul/2025 21:54:11] "GET / HTTP/1.1" 200 -
+2025-07-16 21:54:23,559 - INFO - Loading vector store for context
+2025-07-16 21:54:23,559 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 21:54:35,203 - INFO - Use pytorch device_name: cpu
+2025-07-16 21:54:35,203 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:54:41,506 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:54:41,506 - INFO - Loading existing FAISS vector store
+2025-07-16 21:54:41,723 - INFO - Loading faiss with AVX2 support.
+2025-07-16 21:54:41,775 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 21:54:41,871 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-16 21:54:42,087 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-16 21:54:42,088 - INFO - RetrievalQA chain created successfully
+2025-07-16 21:54:42,550 - INFO - 127.0.0.1 - - [16/Jul/2025 21:54:42] "POST / HTTP/1.1" 200 -
+2025-07-16 21:55:33,865 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 21:55:33,865 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 21:55:44,899 - INFO - 127.0.0.1 - - [16/Jul/2025 21:55:44] "GET / HTTP/1.1" 200 -
+2025-07-16 21:55:55,769 - INFO - Loading vector store for context
+2025-07-16 21:55:55,769 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 21:56:07,324 - INFO - Use pytorch device_name: cpu
+2025-07-16 21:56:07,324 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:56:13,564 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 21:56:13,564 - INFO - Loading existing FAISS vector store
+2025-07-16 21:56:13,769 - INFO - Loading faiss with AVX2 support.
+2025-07-16 21:56:13,815 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 21:56:13,908 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-16 21:56:14,109 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-16 21:56:14,110 - INFO - RetrievalQA chain created successfully
+2025-07-16 21:56:14,483 - INFO - 127.0.0.1 - - [16/Jul/2025 21:56:14] "POST / HTTP/1.1" 200 -
+2025-07-16 22:04:55,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 22:04:55,395 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 22:05:07,515 - INFO - 127.0.0.1 - - [16/Jul/2025 22:05:07] "GET / HTTP/1.1" 200 -
+2025-07-16 22:05:18,224 - INFO - Loading vector store for context
+2025-07-16 22:05:18,224 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:05:30,440 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:05:30,440 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:05:36,702 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:05:36,702 - INFO - Loading existing FAISS vector store
+2025-07-16 22:05:36,937 - INFO - Loading faiss with AVX2 support.
+2025-07-16 22:05:37,077 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 22:05:37,176 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:05:37,395 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:05:37,396 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:05:38,026 - INFO - 127.0.0.1 - - [16/Jul/2025 22:05:38] "POST / HTTP/1.1" 200 -
+2025-07-16 22:05:48,862 - INFO - Loading vector store for context
+2025-07-16 22:05:48,862 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:05:48,864 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:05:48,864 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:05:54,408 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:05:54,409 - INFO - Loading existing FAISS vector store
+2025-07-16 22:05:54,633 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:05:54,634 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:05:54,634 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:05:54,677 - INFO - 127.0.0.1 - - [16/Jul/2025 22:05:54] "POST / HTTP/1.1" 200 -
+2025-07-16 22:06:09,236 - INFO - Loading vector store for context
+2025-07-16 22:06:09,236 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:06:09,237 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:06:09,237 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:06:13,864 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:06:13,864 - INFO - Loading existing FAISS vector store
+2025-07-16 22:06:13,917 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:06:13,917 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-v0.1
+2025-07-16 22:06:13,917 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:06:13,951 - INFO - 127.0.0.1 - - [16/Jul/2025 22:06:13] "POST / HTTP/1.1" 200 -
+2025-07-16 22:07:27,241 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 22:07:27,241 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 22:07:35,281 - INFO - 127.0.0.1 - - [16/Jul/2025 22:07:35] "GET / HTTP/1.1" 200 -
+2025-07-16 22:07:43,707 - INFO - Loading vector store for context
+2025-07-16 22:07:43,707 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:07:56,025 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:07:56,025 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:08:02,517 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:08:02,517 - INFO - Loading existing FAISS vector store
+2025-07-16 22:08:02,768 - INFO - Loading faiss with AVX2 support.
+2025-07-16 22:08:02,800 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 22:08:02,891 - INFO - Loading LLM from Hugging Face Hub: tiiuae/falcon-7b
+2025-07-16 22:08:03,111 - INFO - Successfully loaded LLM from Hugging Face Hub: tiiuae/falcon-7b
+2025-07-16 22:08:03,112 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:08:03,537 - INFO - 127.0.0.1 - - [16/Jul/2025 22:08:03] "POST / HTTP/1.1" 200 -
+2025-07-16 22:09:25,542 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 22:09:25,542 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 22:09:48,912 - INFO - 127.0.0.1 - - [16/Jul/2025 22:09:48] "GET / HTTP/1.1" 200 -
+2025-07-16 22:09:56,171 - INFO - Loading vector store for context
+2025-07-16 22:09:56,171 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:10:09,028 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:10:09,028 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:10:16,149 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:10:16,149 - INFO - Loading existing FAISS vector store
+2025-07-16 22:10:16,370 - INFO - Loading faiss with AVX2 support.
+2025-07-16 22:10:16,404 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 22:10:16,495 - INFO - Loading LLM from Hugging Face Hub: EleutherAI/gpt-neo-2.7B
+2025-07-16 22:10:16,707 - INFO - Successfully loaded LLM from Hugging Face Hub: EleutherAI/gpt-neo-2.7B
+2025-07-16 22:10:16,708 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:10:17,171 - INFO - 127.0.0.1 - - [16/Jul/2025 22:10:17] "POST / HTTP/1.1" 200 -
+2025-07-16 22:13:19,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-16 22:13:19,662 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 22:13:31,836 - INFO - 127.0.0.1 - - [16/Jul/2025 22:13:31] "GET / HTTP/1.1" 200 -
+2025-07-16 22:13:39,116 - INFO - Loading vector store for context
+2025-07-16 22:13:39,116 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:13:51,324 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:13:51,324 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:13:58,548 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:13:58,548 - INFO - Loading existing FAISS vector store
+2025-07-16 22:13:58,778 - INFO - Loading faiss with AVX2 support.
+2025-07-16 22:13:58,809 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-16 22:13:58,909 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:13:59,129 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:13:59,130 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:14:08,475 - INFO - 127.0.0.1 - - [16/Jul/2025 22:14:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:14:08,505 - INFO - 127.0.0.1 - - [16/Jul/2025 22:14:08] "GET / HTTP/1.1" 200 -
+2025-07-16 22:14:29,997 - INFO - Loading vector store for context
+2025-07-16 22:14:29,997 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:14:29,999 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:14:29,999 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:14:33,741 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:14:33,742 - INFO - Loading existing FAISS vector store
+2025-07-16 22:14:33,964 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:14:33,964 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:14:33,965 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:14:37,458 - INFO - 127.0.0.1 - - [16/Jul/2025 22:14:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:14:37,470 - INFO - 127.0.0.1 - - [16/Jul/2025 22:14:37] "GET / HTTP/1.1" 200 -
+2025-07-16 22:15:01,632 - INFO - Loading vector store for context
+2025-07-16 22:15:01,632 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:15:01,632 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:15:01,633 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:15:05,377 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:15:05,377 - INFO - Loading existing FAISS vector store
+2025-07-16 22:15:05,426 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:15:05,427 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:15:05,427 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:15:17,189 - INFO - 127.0.0.1 - - [16/Jul/2025 22:15:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:15:17,200 - INFO - 127.0.0.1 - - [16/Jul/2025 22:15:17] "GET / HTTP/1.1" 200 -
+2025-07-16 22:20:04,369 - INFO - Loading vector store for context
+2025-07-16 22:20:04,373 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:20:04,376 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:20:04,376 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:20:09,333 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:20:09,333 - INFO - Loading existing FAISS vector store
+2025-07-16 22:20:09,413 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:20:09,414 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:20:09,415 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:20:18,757 - INFO - 127.0.0.1 - - [16/Jul/2025 22:20:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:20:18,768 - INFO - 127.0.0.1 - - [16/Jul/2025 22:20:18] "GET / HTTP/1.1" 200 -
+2025-07-16 22:21:17,140 - INFO - Loading vector store for context
+2025-07-16 22:21:17,141 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:21:17,142 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:21:17,142 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:21:21,011 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:21:21,011 - INFO - Loading existing FAISS vector store
+2025-07-16 22:21:21,079 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:21:21,079 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:21:21,080 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:21:23,393 - INFO - 127.0.0.1 - - [16/Jul/2025 22:21:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:21:23,404 - INFO - 127.0.0.1 - - [16/Jul/2025 22:21:23] "GET / HTTP/1.1" 200 -
+2025-07-16 22:22:05,019 - INFO - Loading vector store for context
+2025-07-16 22:22:05,020 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:22:05,021 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:22:05,021 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:22:08,913 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:22:08,913 - INFO - Loading existing FAISS vector store
+2025-07-16 22:22:09,346 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:22:09,347 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:22:09,347 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:22:14,838 - INFO - 127.0.0.1 - - [16/Jul/2025 22:22:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:22:14,849 - INFO - 127.0.0.1 - - [16/Jul/2025 22:22:14] "GET / HTTP/1.1" 200 -
+2025-07-16 22:23:30,834 - INFO - Loading vector store for context
+2025-07-16 22:23:30,835 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:23:30,836 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:23:30,836 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:23:34,745 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:23:34,746 - INFO - Loading existing FAISS vector store
+2025-07-16 22:23:34,824 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:23:34,825 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:23:34,825 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:23:41,405 - INFO - 127.0.0.1 - - [16/Jul/2025 22:23:41] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:23:41,418 - INFO - 127.0.0.1 - - [16/Jul/2025 22:23:41] "GET / HTTP/1.1" 200 -
+2025-07-16 22:27:37,355 - INFO - Loading vector store for context
+2025-07-16 22:27:37,356 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:27:37,357 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:27:37,357 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:27:41,734 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:27:41,734 - INFO - Loading existing FAISS vector store
+2025-07-16 22:27:41,805 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:27:41,806 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:27:41,807 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:27:50,537 - INFO - 127.0.0.1 - - [16/Jul/2025 22:27:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:27:50,548 - INFO - 127.0.0.1 - - [16/Jul/2025 22:27:50] "GET / HTTP/1.1" 200 -
+2025-07-16 22:29:08,355 - INFO - Loading vector store for context
+2025-07-16 22:29:08,356 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:29:08,357 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:29:08,357 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:29:12,286 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:29:12,288 - INFO - Loading existing FAISS vector store
+2025-07-16 22:29:12,355 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:29:12,356 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:29:12,357 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:29:20,994 - INFO - 127.0.0.1 - - [16/Jul/2025 22:29:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:29:21,006 - INFO - 127.0.0.1 - - [16/Jul/2025 22:29:21] "GET / HTTP/1.1" 200 -
+2025-07-16 22:30:43,438 - INFO - Loading vector store for context
+2025-07-16 22:30:43,440 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:30:43,440 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:30:43,440 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:30:47,190 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:30:47,190 - INFO - Loading existing FAISS vector store
+2025-07-16 22:30:47,440 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:30:47,441 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:30:47,441 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:30:57,049 - INFO - 127.0.0.1 - - [16/Jul/2025 22:30:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:30:57,060 - INFO - 127.0.0.1 - - [16/Jul/2025 22:30:57] "GET / HTTP/1.1" 200 -
+2025-07-16 22:31:44,652 - INFO - Loading vector store for context
+2025-07-16 22:31:44,654 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:31:44,654 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:31:44,655 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:31:48,633 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:31:48,633 - INFO - Loading existing FAISS vector store
+2025-07-16 22:31:48,701 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:31:48,702 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:31:48,702 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:31:52,856 - INFO - 127.0.0.1 - - [16/Jul/2025 22:31:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:31:52,867 - INFO - 127.0.0.1 - - [16/Jul/2025 22:31:52] "GET / HTTP/1.1" 200 -
+2025-07-16 22:45:30,277 - INFO - Loading vector store for context
+2025-07-16 22:45:30,278 - INFO - Loading HuggingFace embeddings model...
+2025-07-16 22:45:30,279 - INFO - Use pytorch device_name: cpu
+2025-07-16 22:45:30,279 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:45:34,400 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 22:45:34,401 - INFO - Loading existing FAISS vector store
+2025-07-16 22:45:34,470 - INFO - Loading LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:45:34,471 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Devstral-Small-2507
+2025-07-16 22:45:34,471 - INFO - RetrievalQA chain created successfully
+2025-07-16 22:45:45,571 - INFO - 127.0.0.1 - - [16/Jul/2025 22:45:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-16 22:45:45,582 - INFO - 127.0.0.1 - - [16/Jul/2025 22:45:45] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,482 @@
+2025-07-13 00:08:56,868 - INFO - Making the vector store
+2025-07-13 00:08:56,868 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:09:18,009 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:09:18,276 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:09:18,276 - INFO - Saving text chunks to vector store
+2025-07-13 00:09:18,276 - INFO - Generating new vector store
+2025-07-13 00:09:29,952 - INFO - Use pytorch device_name: cpu
+2025-07-13 00:09:29,952 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 00:09:35,268 - INFO - Successfully loaded embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 00:14:54,427 - ERROR - Error saving FAISS vector store: Numpy is not available
+2025-07-13 00:14:54,427 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 42
+2025-07-13 00:14:54,427 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-13 00:25:48,264 - INFO - Making the vector store
+2025-07-13 00:25:48,264 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:26:09,492 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:26:09,741 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:26:09,741 - INFO - Saving text chunks to vector store
+2025-07-13 00:26:09,741 - INFO - Generating new vector store
+2025-07-13 00:26:09,741 - ERROR - Error saving FAISS vector store: get_embeddings() missing 1 required positional argument: 'model_name'
+2025-07-13 00:26:09,741 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 41
+2025-07-13 00:26:09,741 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-13 00:49:20,161 - INFO - Making the vector store
+2025-07-13 00:49:20,161 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:49:41,833 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:49:42,094 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 00:49:42,094 - INFO - Saving text chunks to vector store
+2025-07-13 00:49:42,094 - INFO - Generating new vector store
+2025-07-13 00:49:42,094 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 00:49:56,458 - INFO - Use pytorch device_name: cpu
+2025-07-13 00:49:56,458 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 00:50:03,876 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 00:55:33,335 - ERROR - Error saving FAISS vector store: Numpy is not available
+2025-07-13 00:55:33,335 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 37
+2025-07-13 00:55:33,335 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-13 01:04:00,254 - INFO - Making the vector store
+2025-07-13 01:04:00,254 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:04:22,709 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:04:22,963 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:04:22,963 - INFO - Saving text chunks to vector store
+2025-07-13 01:04:22,963 - INFO - Generating new vector store
+2025-07-13 01:04:22,963 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 01:04:36,391 - INFO - Use pytorch device_name: cpu
+2025-07-13 01:04:36,391 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 01:04:41,856 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 01:10:09,203 - ERROR - Error saving FAISS vector store: Numpy is not available
+2025-07-13 01:10:09,203 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 37
+2025-07-13 01:10:09,203 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-13 01:25:16,700 - INFO - Making the vector store
+2025-07-13 01:25:16,700 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:25:36,890 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:25:37,140 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:25:37,140 - ERROR - Error saving FAISS vector store: No text chunks provided to save in FAISS vector store | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-13 01:25:37,140 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 33
+2025-07-13 01:52:26,633 - INFO - Making the vector store
+2025-07-13 01:52:26,633 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:52:45,870 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 01:52:46,177 - INFO - Loaded 7080 chunks
+2025-07-13 01:52:46,177 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 01:52:59,343 - INFO - Use pytorch device_name: cpu
+2025-07-13 01:52:59,343 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 01:53:04,649 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 01:53:04,650 - INFO - Loading existing FAISS vector store from /Users/mahendravarma/LLMOPS/CHATBOT RAG/vector_store/db_faiss
+2025-07-13 01:53:04,821 - INFO - Loading faiss with AVX2 support.
+2025-07-13 01:53:05,756 - INFO - Could not load library with AVX2 support due to:
+ImportError('numpy.core.multiarray failed to import')
+2025-07-13 01:53:05,757 - INFO - Loading faiss.
+2025-07-13 01:53:06,478 - ERROR - Error loading FAISS vector store: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-07-13 01:53:06,478 - ERROR - Error loading data: Failed to load FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 17
+2025-07-13 02:25:51,939 - INFO - Making the vector store
+2025-07-13 02:25:51,939 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 02:26:13,571 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-13 02:26:13,845 - INFO - Loaded 7080 chunks
+2025-07-13 02:26:13,845 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 02:26:27,778 - INFO - Use pytorch device_name: cpu
+2025-07-13 02:26:27,779 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 02:26:34,301 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 02:26:34,302 - INFO - Loading existing FAISS vector store
+2025-07-13 02:26:34,523 - INFO - Loading faiss with AVX2 support.
+2025-07-13 02:26:34,663 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 02:26:34,684 - ERROR - Failed to load FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 17
+2025-07-13 02:26:34,684 - INFO - text chunks provided to save in FAISS vector store
+2025-07-13 02:26:34,684 - INFO - Generating new vector store
+2025-07-13 02:26:34,684 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 02:26:34,687 - INFO - Use pytorch device_name: cpu
+2025-07-13 02:26:34,687 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 02:26:38,414 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 02:32:12,360 - INFO - Vector store saving
+2025-07-13 02:32:12,458 - INFO - Saving FAISS vector store to disk
+2025-07-13 02:32:12,466 - INFO - Data loaded and saved successfully
+2025-07-13 22:16:39,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-13 22:16:39,462 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 22:17:23,203 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:17:23,217 - INFO - 127.0.0.1 - - [13/Jul/2025 22:17:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:17:26,784 - INFO - 127.0.0.1 - - [13/Jul/2025 22:17:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 22:17:47,847 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:17:47,848 - INFO - 192.168.0.62 - - [13/Jul/2025 22:17:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:17:47,945 - INFO - 192.168.0.62 - - [13/Jul/2025 22:17:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 22:20:22,665 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:20:22,671 - INFO - 192.168.0.62 - - [13/Jul/2025 22:20:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:20:22,780 - INFO - 192.168.0.62 - - [13/Jul/2025 22:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 22:23:03,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-13 22:23:03,149 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 22:23:51,360 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:23:51,367 - INFO - 127.0.0.1 - - [13/Jul/2025 22:23:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:24:34,790 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:24:34,794 - INFO - 127.0.0.1 - - [13/Jul/2025 22:24:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:26:00,164 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:26:00,165 - INFO - 192.168.0.62 - - [13/Jul/2025 22:26:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:26:53,626 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:26:53,628 - INFO - 192.168.0.62 - - [13/Jul/2025 22:26:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:27:19,945 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/application.py", line 43, in index
+    return render_template('index.html', messages=session.get("messages", []))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/mahendravarma/LLMOPS/CHATBOT RAG/app/templates/index.html", line 31, in template
+    {{ msg.content | safe | nl2br }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-07-13 22:27:19,946 - INFO - 127.0.0.1 - - [13/Jul/2025 22:27:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 22:47:57,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-13 22:47:57,088 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 22:48:07,298 - INFO - 127.0.0.1 - - [13/Jul/2025 22:48:07] "GET / HTTP/1.1" 200 -
+2025-07-13 22:51:28,235 - INFO - Loading vector store for context
+2025-07-13 22:51:28,235 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 22:51:44,661 - INFO - Use pytorch device_name: cpu
+2025-07-13 22:51:44,661 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 22:51:52,225 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 22:51:52,225 - INFO - Loading existing FAISS vector store
+2025-07-13 22:51:52,489 - INFO - Loading faiss with AVX2 support.
+2025-07-13 22:51:52,615 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 22:51:52,711 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-13 22:51:52,711 - ERROR - Failed to load LLM from Hugging Face Hub: 'module' object is not callable
+2025-07-13 22:51:52,711 - ERROR - Failed to create RetrievalQA chain: Language model is not loaded properly | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-13 22:51:52,712 - INFO - 127.0.0.1 - - [13/Jul/2025 22:51:52] "POST / HTTP/1.1" 200 -
+2025-07-13 23:01:22,531 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-13 23:01:22,531 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 23:01:39,209 - INFO - 127.0.0.1 - - [13/Jul/2025 23:01:39] "GET / HTTP/1.1" 200 -
+2025-07-13 23:01:52,332 - INFO - Loading vector store for context
+2025-07-13 23:01:52,332 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 23:02:04,207 - INFO - Use pytorch device_name: cpu
+2025-07-13 23:02:04,207 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 23:02:12,257 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 23:02:12,258 - INFO - Loading existing FAISS vector store
+2025-07-13 23:02:12,501 - INFO - Loading faiss with AVX2 support.
+2025-07-13 23:02:12,649 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 23:02:12,741 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-13 23:02:13,371 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-13 23:02:13,372 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-13 23:02:13,373 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-13 23:02:13,373 - INFO - Successfully created RetrievalQA chain
+2025-07-13 23:02:14,099 - INFO - 127.0.0.1 - - [13/Jul/2025 23:02:14] "POST / HTTP/1.1" 200 -
+2025-07-13 23:02:57,500 - INFO - 127.0.0.1 - - [13/Jul/2025 23:02:57] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-07-13 23:02:57,516 - INFO - 127.0.0.1 - - [13/Jul/2025 23:02:57] "GET / HTTP/1.1" 200 -
+2025-07-13 23:03:18,860 - INFO - Loading vector store for context
+2025-07-13 23:03:18,860 - INFO - Loading HuggingFace embeddings model...
+2025-07-13 23:03:18,862 - INFO - Use pytorch device_name: cpu
+2025-07-13 23:03:18,862 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 23:03:23,310 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 23:03:23,311 - INFO - Loading existing FAISS vector store
+2025-07-13 23:03:23,559 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-13 23:03:24,331 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.3
+2025-07-13 23:03:24,332 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-13 23:03:24,333 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-13 23:03:24,333 - INFO - Successfully created RetrievalQA chain
+2025-07-13 23:03:24,378 - INFO - 127.0.0.1 - - [13/Jul/2025 23:03:24] "POST / HTTP/1.1" 200 -

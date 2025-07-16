@@ -1,0 +1,141 @@
+2025-07-15 00:04:38,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 00:04:38,167 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 00:04:58,418 - INFO - Loading vector store for context
+2025-07-15 00:04:58,418 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 00:05:03,655 - INFO - Use pytorch device_name: cpu
+2025-07-15 00:05:03,655 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 00:05:07,111 - INFO - 127.0.0.1 - - [15/Jul/2025 00:05:07] "GET / HTTP/1.1" 200 -
+2025-07-15 00:05:09,467 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 00:05:09,467 - INFO - Loading existing FAISS vector store
+2025-07-15 00:05:09,558 - INFO - Loading faiss with AVX2 support.
+2025-07-15 00:05:09,585 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 00:05:09,648 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 00:05:10,079 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 00:05:10,080 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-15 00:05:10,081 - INFO - Successfully created RetrievalQA chain
+2025-07-15 00:05:10,157 - INFO - 127.0.0.1 - - [15/Jul/2025 00:05:10] "POST / HTTP/1.1" 200 -
+2025-07-15 00:05:21,375 - INFO - Loading vector store for context
+2025-07-15 00:05:21,376 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 00:05:21,377 - INFO - Use pytorch device_name: cpu
+2025-07-15 00:05:21,377 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 00:05:25,309 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 00:05:25,309 - INFO - Loading existing FAISS vector store
+2025-07-15 00:05:25,518 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 00:05:25,852 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 00:05:25,853 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-15 00:05:25,854 - INFO - Successfully created RetrievalQA chain
+2025-07-15 00:05:25,891 - INFO - 127.0.0.1 - - [15/Jul/2025 00:05:25] "POST / HTTP/1.1" 200 -
+2025-07-15 01:05:17,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 01:05:17,763 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 01:05:23,073 - INFO - 127.0.0.1 - - [15/Jul/2025 01:05:23] "GET / HTTP/1.1" 200 -
+2025-07-15 01:05:31,914 - INFO - Loading vector store for context
+2025-07-15 01:05:31,914 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:05:37,370 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:05:37,371 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:05:43,036 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:05:43,036 - INFO - Loading existing FAISS vector store
+2025-07-15 01:05:43,271 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:05:43,303 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:05:43,367 - ERROR - Failed to create RetrievalQA chain: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'temperature', 'max_new_tokens'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'client': <InferenceClie...12, 'temperature': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-07-15 01:05:43,369 - INFO - 127.0.0.1 - - [15/Jul/2025 01:05:43] "POST / HTTP/1.1" 200 -
+2025-07-15 01:09:43,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 01:09:43,489 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 01:09:56,975 - INFO - 127.0.0.1 - - [15/Jul/2025 01:09:56] "GET / HTTP/1.1" 200 -
+2025-07-15 01:10:07,891 - INFO - Loading vector store for context
+2025-07-15 01:10:07,892 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:10:12,394 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:10:12,394 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:10:18,390 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:10:18,390 - INFO - Loading existing FAISS vector store
+2025-07-15 01:10:18,450 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:10:18,475 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:10:18,528 - ERROR - Failed to create RetrievalQA chain: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'temperature', 'max_new_tokens'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'client': <InferenceClie...12, 'temperature': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-07-15 01:10:18,529 - INFO - 127.0.0.1 - - [15/Jul/2025 01:10:18] "POST / HTTP/1.1" 200 -
+2025-07-15 01:15:52,959 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 01:15:52,959 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 01:16:09,998 - INFO - 127.0.0.1 - - [15/Jul/2025 01:16:09] "GET / HTTP/1.1" 200 -
+2025-07-15 01:16:21,234 - INFO - Loading vector store for context
+2025-07-15 01:16:21,234 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:16:33,313 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:16:33,313 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:16:39,420 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:16:39,420 - INFO - Loading existing FAISS vector store
+2025-07-15 01:16:39,659 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:16:39,691 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:16:39,785 - ERROR - Failed to create RetrievalQA chain: 1 validation error for HuggingFaceEndpoint
+  Value error, Parameters {'temperature', 'max_new_tokens'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter. [type=value_error, input_value={'client': <InferenceClie...12, 'temperature': 0.0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+2025-07-15 01:16:39,788 - INFO - 127.0.0.1 - - [15/Jul/2025 01:16:39] "POST / HTTP/1.1" 200 -
+2025-07-15 01:27:32,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 01:27:32,279 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 01:28:00,379 - INFO - 127.0.0.1 - - [15/Jul/2025 01:28:00] "GET / HTTP/1.1" 200 -
+2025-07-15 01:28:07,980 - INFO - Loading vector store for context
+2025-07-15 01:28:07,981 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:28:20,213 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:28:20,216 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:28:26,419 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:28:26,419 - INFO - Loading existing FAISS vector store
+2025-07-15 01:28:26,627 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:28:26,660 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:28:26,742 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:28:27,230 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:28:27,230 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-15 01:28:27,231 - INFO - Successfully created RetrievalQA chain
+2025-07-15 01:28:27,316 - INFO - 127.0.0.1 - - [15/Jul/2025 01:28:27] "POST / HTTP/1.1" 200 -
+2025-07-15 01:33:19,766 - INFO - Loading vector store for context
+2025-07-15 01:33:19,766 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:33:19,768 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:33:19,768 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:33:23,478 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:33:23,479 - INFO - Loading existing FAISS vector store
+2025-07-15 01:33:23,687 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:33:23,985 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:33:23,985 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-15 01:33:23,986 - INFO - Successfully created RetrievalQA chain
+2025-07-15 01:33:24,041 - INFO - 127.0.0.1 - - [15/Jul/2025 01:33:24] "POST / HTTP/1.1" 200 -
+2025-07-15 01:34:01,314 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.62:5000
+2025-07-15 01:34:01,314 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 01:34:10,520 - INFO - 192.168.0.62 - - [15/Jul/2025 01:34:10] "GET / HTTP/1.1" 200 -
+2025-07-15 01:34:25,317 - INFO - Loading vector store for context
+2025-07-15 01:34:25,317 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:34:33,081 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:34:33,081 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:34:39,170 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:34:39,171 - INFO - Loading existing FAISS vector store
+2025-07-15 01:34:39,411 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:34:39,439 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:34:39,511 - INFO - Loading LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:34:40,102 - INFO - Successfully loaded LLM from Hugging Face Hub: mistralai/Mistral-7B-Instruct-v0.2
+2025-07-15 01:34:40,102 - INFO - Setting custom prompt template for RetrievalQA chain
+2025-07-15 01:34:40,103 - INFO - Successfully created RetrievalQA chain
+2025-07-15 01:34:40,190 - INFO - 192.168.0.62 - - [15/Jul/2025 01:34:40] "POST / HTTP/1.1" 200 -
+2025-07-15 01:57:45,699 - INFO - Loading HuggingFace embeddings model...
+2025-07-15 01:57:58,234 - INFO - Use pytorch device_name: cpu
+2025-07-15 01:57:58,234 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:58:04,946 - INFO - Successfully loaded embeddings model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-15 01:58:04,946 - INFO - Loading existing FAISS vector store
+2025-07-15 01:58:05,172 - INFO - Loading faiss with AVX2 support.
+2025-07-15 01:58:05,211 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-15 01:58:05,312 - INFO - Setting custom prompt template for RetrievalQA chain

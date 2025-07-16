@@ -1,0 +1,49 @@
+2025-07-12 21:57:56,750 - ERROR - Error loading data: exists() missing 1 required positional argument: 'path'
+2025-07-12 21:57:56,751 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 23
+2025-07-12 22:18:15,136 - ERROR - Error loading PDF files: File not found: data/ | Error: None | File: Unknown File | Line: Unknown Line
+2025-07-12 22:18:15,136 - ERROR - Custom exception occurred: Failed to load PDF files: File not found: data/ | Error: None | File: Unknown File | Line: Unknown Line | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/pdf_loader.py | Line: 20
+2025-07-12 22:22:36,666 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 22:22:56,644 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 22:35:52,644 - INFO - Making the vector store
+2025-07-12 22:35:52,644 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 22:36:11,998 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 22:36:12,250 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 22:36:12,251 - INFO - Saving text chunks to vector store
+2025-07-12 22:36:12,251 - INFO - Generating new vector store
+2025-07-12 22:36:12,251 - ERROR - Error saving FAISS vector store: get_embeddings() missing 1 required positional argument: 'model_name'
+2025-07-12 22:36:12,251 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 41
+2025-07-12 22:36:12,251 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-12 23:31:13,748 - INFO - Making the vector store
+2025-07-12 23:31:13,749 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:31:36,844 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:31:37,093 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:31:37,093 - INFO - Saving text chunks to vector store
+2025-07-12 23:31:37,093 - INFO - Generating new vector store
+2025-07-12 23:31:37,093 - ERROR - Error getting embeddings for model sentence-transformers/all-MiniLM-L6-v2: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-07-12 23:31:37,094 - ERROR - Error saving FAISS vector store: Failed to get embeddings for model sentence-transformers/all-MiniLM-L6-v2 | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/embeddings.py | Line: 18
+2025-07-12 23:31:37,094 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 41
+2025-07-12 23:31:37,094 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-12 23:35:55,371 - INFO - Making the vector store
+2025-07-12 23:35:55,372 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:36:23,519 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:36:23,801 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:36:23,801 - INFO - Saving text chunks to vector store
+2025-07-12 23:36:23,801 - INFO - Generating new vector store
+2025-07-12 23:38:22,769 - INFO - Use pytorch device_name: cpu
+2025-07-12 23:38:22,771 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-12 23:38:43,845 - INFO - Successfully loaded embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-12 23:44:52,096 - ERROR - Error saving FAISS vector store: Numpy is not available
+2025-07-12 23:44:52,097 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 42
+2025-07-12 23:44:52,097 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
+2025-07-12 23:53:35,550 - INFO - Making the vector store
+2025-07-12 23:53:35,550 - INFO - Loading PDF file from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:53:56,509 - INFO - Loaded 759 documents from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:53:56,783 - INFO - Loaded 7080 chunks from /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/data/
+2025-07-12 23:53:56,783 - INFO - Saving text chunks to vector store
+2025-07-12 23:53:56,784 - INFO - Generating new vector store
+2025-07-12 23:54:08,046 - INFO - Use pytorch device_name: cpu
+2025-07-12 23:54:08,046 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-12 23:54:13,136 - INFO - Successfully loaded embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2025-07-12 23:59:25,027 - ERROR - Error saving FAISS vector store: Numpy is not available
+2025-07-12 23:59:25,027 - ERROR - Error loading data: Failed to save FAISS vector store | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/vector_store.py | Line: 42
+2025-07-12 23:59:25,027 - ERROR - Custom exception occurred: Failed to load data  | Error: None | File: /Users/mahendravarma/LLMOPS/CHATBOT RAG/app/components/data_loader.py | Line: 32
